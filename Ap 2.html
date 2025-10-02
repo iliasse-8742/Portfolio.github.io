@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AP2 - Portfolio Iliasse Salmi</title>
+  <style>
+    body {
+      background-color: #f4f3fa;
+      font-family: 'Roboto', Arial, sans-serif;
+      color: #262050;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 50px 20px 0 20px;
+    }
+    .title {
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: #262050;
+      margin-bottom: 10px;
+      letter-spacing: 0.03em;
+    }
+    .desc-box {
+      background: #fff;
+      border: 2px solid #9c87ee;
+      padding: 13px 18px;
+      width: 60%;
+      min-height: 65px;
+      margin-bottom: 60px;
+    }
+    .section-title {
+      font-size: 2.2em;
+      font-weight: 900;
+      color: #262050;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
+    }
+    .grid-item {
+      text-align: left;
+      border-bottom: 2px solid #2226ea;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+    }
+    .item-title {
+      color: #2226ea;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .item-desc {
+      color: #262050;
+      font-size: 1em;
+      margin-bottom: 3px;
+    }
+    @media(max-width: 900px) {
+      .desc-box { width: 100%; }
+      .container { padding: 16px; }
+    }
+    a { color: #2226ea; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">AP2</div>
+    <div class="desc-box">
+      Durant cette ap2 j'ai pu effectué une reproduction du site Quiconce Espal avec 2 de mes camarades depuis le cms webador.
+    </div>
+    <div class="section-title">Caractéristiques</div>
+    <div class="grid">
+      <div class="grid-item">
+        <div class="item-title">Mode de travail</div>
+        <div class="item-desc">En équipe à 3.</div>
+      </div>
+      <div class="grid-item">
+        <div class="item-title">Compétences acquises</div>
+        <div class="item-desc">Travail en équipe, utilisation du cms webador.</div>
+      </div>
+      <div class="grid-item">
+        <div class="item-title">Outils</div>
+        <div class="item-desc">Site quiconces, webador.</div>
+      </div>
+      <div class="grid-item">
+        <div class="item-title">Document technique</div>
+        <div class="item-desc"><a href="https://www.quinconces-espal.com/" target="_blank">https://www.quinconces-espal.com/</a></div>
+      </div>
+      <div class="grid-item">
+        <div class="item-title">Production en ligne</div>
+        <div class="item-desc"><a href="https://gratuit-4225915.webador.fr/" target="_blank">https://gratuit-4225915.webador.fr/</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

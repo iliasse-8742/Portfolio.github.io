@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>API1 - Portfolio Iliasse Salmi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #f4f3fa;
+      color: #2a2a3d;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .title {
+      font-size: 2.5rem;
+      font-weight: 900;
+      border: 2px solid #7778ae;
+      padding: 8px 15px;
+      width: fit-content;
+      margin-bottom: 20px;
+      color: #262050;
+    }
+    .description-box {
+      min-height: 80px;
+      background-color: #fff;
+      border: 2px solid #9c87ee;
+      padding: 12px 18px;
+      margin-bottom: 45px;
+      line-height: 1.3;
+    }
+    hr.separator {
+      border: none;
+      border-top: 3px solid #9c87ee;
+      width: 95%;
+      margin: 0 auto 30px auto;
+    }
+    .section-title {
+      font-weight: 900;
+      color: #262050;
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 30px;
+      position: relative;
+    }
+    .section-title::after {
+      content: "";
+      width: 60px;
+      height: 4px;
+      background-color: #262050;
+      display: block;
+      margin: 10px auto 0 auto;
+      border-radius: 5px;
+    }
+    .details-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+      background: #f8edfa;
+      padding: 40px 20px;
+      border-radius: 6px;
+    }
+    .detail-item {
+      text-align: center;
+      color: #262050;
+    }
+    .detail-icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .detail-title {
+      font-weight: 700;
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+    }
+    .detail-desc {
+      font-size: 0.95rem;
+      color: #333;
+      line-height: 1.3;
+    }
+    @media (max-width: 600px) {
+      .description-box {
+        width: 100% !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">API1</div>
+    <div class="description-box">
+      Durant cette api1 j'ai pu effectuer une reproduction du site Scies sur wordpress.
+    </div>
+
+    <hr class="separator" />
+
+    <h2 class="section-title">Détails</h2>
+    <div class="details-grid">
+      <div class="detail-item">
+        <i class="bi bi-emoji-smile detail-icon"></i>
+        <div class="detail-title">Mode de travail</div>
+        <div class="detail-desc">Seul</div>
+      </div>
+      <div class="detail-item">
+        <i class="bi bi-file-earmark-text detail-icon"></i>
+        <div class="detail-title">Compétence acquise</div>
+        <div class="detail-desc">Utilisation d'un Cms (Wordpress) ainsi qu'une base de donnée</div>
+      </div>
+      <div class="detail-item">
+        <i class="bi bi-globe detail-icon"></i>
+        <div class="detail-title">Document technique</div>
+        <div class="detail-desc">Indisponible</div>
+      </div>
+      <div class="detail-item">
+        <i class="bi bi-lightning detail-icon"></i>
+        <div class="detail-title">Outils</div>
+        <div class="detail-desc">Site Scies, phpmyadmin, wordpress</div>
+      </div>
+      <div class="detail-item">
+        <i class="bi bi-bullseye detail-icon"></i>
+        <div class="detail-title">Production en ligne ou capture d'écran</div>
+        <div class="detail-desc">Indisponible</div>
+      </div>
+      <div class="detail-item">
+        <i class="bi bi-star detail-icon"></i>
+        <div class="detail-title">Lien du site Scies</div>
+        <div class="detail-desc">Indisponible</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
